@@ -141,8 +141,9 @@ header {
 .banner-box{
     background-image: url(../images/banner.jpg);
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-left: 100px;
+    background-repeat: no-repeat;
 }
 .banner-title{
     font-weight: 900;
