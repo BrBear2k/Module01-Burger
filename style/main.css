@@ -10,9 +10,6 @@ body{
 header{
     border-bottom: 1px solid #DEDEDE;
 }
-header {
-    border-bottom: 1px solid #DEDEDE;
-}
 .header {
     font-family: 'Open Sans', sans-serif;
     display: flex;
