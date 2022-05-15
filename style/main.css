@@ -18,6 +18,12 @@ header{
     padding-top: 26px;
     padding-bottom: 25px;
 }
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 68.5%;
+}
 .header-logo {
     display: block;
     background-image: url(../images/logo.svg);
@@ -182,6 +188,11 @@ header{
     padding: 18px 25px;
     background-color: #FBB731;
     border-radius: 5px;
+    border: 1px solid #FBB731;
+}
+.banner-link:hover{
+    background-color: transparent;
+    color: #FBB731;
 }
 .menu-header{
     display: flex;
@@ -251,28 +262,34 @@ header{
     padding-bottom: 20px;
     margin: 0;
 }
-.menu-grid-btn{
-    background: #FBB731;
+.menu-grid-btn {
+    background-color: #FBB731;
     border-radius: 5px;
+    padding: 10px 32px;
     border: none;
-    width: 152px;
-    height: 38px;
-    background-image: url(../images/cart-menu.svg);
-    background-size: 18px 18px;
-    background-repeat: no-repeat;
-    background-position: 20% center;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
 }
+.menu-grid-btn:hover{
+    background: #F37335;
+    cursor: pointer;
+}
+.menu-grid-icon {
+    background-image: url(../images/cart-menu.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
 .menu-grid-text{
     font-size: 14px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 30px 10px 52px;
 }
 .footer{
     background: #1E2F40;
@@ -299,7 +316,7 @@ header{
     margin-bottom: 19px;
     margin-top: 0;
 }
-.footer-item li{
+.footer-list li{
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -307,10 +324,14 @@ header{
     font-weight: 700;
     line-height: 24px;
 }
-.footer-item a{
+.footer-list a{
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+}
+.footer-list a:hover{
+    color: #FBB731;
+    cursor: pointer;
 }
 .footer-item span{
     color: #DEDEDE;
@@ -318,14 +339,20 @@ header{
     font-weight: 400;
     margin-bottom: 2px;
 }
-.footer-tel ul{
+.footer-list-tel{
+    margin-top: 0;
+}
+.footer-list-tel li{
+    margin-bottom: 12px;
+}
+.footer-list-tel a{
     font-size: 20px;
     color: #FBB731;
     font-weight: 900;
-    margin-top: 0;
 }
-.footer-tel li{
-    margin-bottom: 12px;
+.footer-list-tel a:hover{
+    color: #FFFFFF;
+    cursor: pointer;
 }
 .footer-list{
     padding-left: 0;
