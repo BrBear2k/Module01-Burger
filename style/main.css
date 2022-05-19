@@ -593,7 +593,7 @@ header{
     }
     .menu{
         overflow: hidden;
-        height: 670px;
+        height: 1929px;
     }
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
